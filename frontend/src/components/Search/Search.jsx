@@ -1,4 +1,4 @@
-import SearchBar from "./custom/searchBar";
+import searchBar from "./custom/searchBar.jsx";
 
 function search() {
     return(
@@ -6,7 +6,7 @@ function search() {
             <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-3">
 
                 {/* serach bar */}
-                <SearchBar/>
+                <searchBar/>
 
                 {/* Promo Messages */}
                 <div className="flex flex-col sm:flex-row items-start sm:items-center gap-2 sm:gap-6 text-sm sm:text-sm text-white text-center">
