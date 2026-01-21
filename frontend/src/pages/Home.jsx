@@ -1,9 +1,9 @@
 import { useContext, useEffect } from "react";
 import HomeSection from "../components/homesection/HomeSection";
 import Nav from "../components/nav/Nav";
-import Search from "../components/Search/Search";
 import { AppCotext } from "../context/AppContext";
 import Footer from "../components/footer/Footer";
+import Search from "../components/Search/Search";
 
 
 function Home() {
@@ -19,7 +19,7 @@ function Home() {
     return(
         <div className="flex flex-col m-3">
             <Nav />
-            <Search/>
+            <Search />
             <HomeSection/>
             <Footer/>
         </div>
