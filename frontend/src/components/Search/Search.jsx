@@ -1,6 +1,6 @@
 import SearchBar from "./custom/searchBar";
 
-function Search() {
+function search() {
     return(
         <div className="bg-[#1ABA1A] mt-3 rounded-md px-4 py-3 text-white ">
             <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-3">
@@ -20,4 +20,4 @@ function Search() {
     );
 }
 
-export default Search;
+export default search;
