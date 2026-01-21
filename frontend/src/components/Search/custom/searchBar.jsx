@@ -1,7 +1,7 @@
 import { assets } from '../../../assets/nav/assests';
 import serach from '../../../assets/serach/Symbol.png';
 
-function searchBar() {
+function SearchBar() {
     return(
         <div className='flex items-center bg-white rounded-full overflow-hidden w-full'>
             <div className='flex items-center px-4 text-black font-semibold text-sm whitespace-nowrap'>
@@ -16,4 +16,4 @@ function searchBar() {
     );
 }
 
-export default searchBar;
+export default SearchBar;

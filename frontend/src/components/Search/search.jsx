@@ -1,12 +1,13 @@
-import searchBar from "./custom/searchBar.jsx";
+import SearchBar from "./custom/SearchBar";
 
-function search() {
+
+function Search() {
     return(
         <div className="bg-[#1ABA1A] mt-3 rounded-md px-4 py-3 text-white ">
             <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-3">
 
                 {/* serach bar */}
-                <searchBar/>
+                <SearchBar />
 
                 {/* Promo Messages */}
                 <div className="flex flex-col sm:flex-row items-start sm:items-center gap-2 sm:gap-6 text-sm sm:text-sm text-white text-center">
@@ -20,4 +21,4 @@ function search() {
     );
 }
 
-export default search;
+export default Search;
